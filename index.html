@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" id="html-tag">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الشخصي | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Portfolio : khalil sallemi</div>
+        <ul class="nav-links">
+            <li><a href="#home" data-tr="nav_home">الرئيسية</a></li>
+            <li><a href="#skills" data-tr="nav_skills">مهاراتي</a></li>
+            <li><a href="#contact" data-tr="nav_contact">تواصل معي</a></li>
+        </ul>
+
+        <!-- مبدل اللغات -->
+        <div class="lang-switcher">
+            <button onclick="changeLanguage('ar')" class="active">AR</button>
+            <button onclick="changeLanguage('en')">EN</button>
+            <button onclick="changeLanguage('fr')">FR</button>
+        </div>
+
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- القسم الرئيسي -->
+    <section id="home" class="hero">
+        <div class="hero-content hidden">
+            <h1 data-tr="hero_title">مرحباً، أنا <span>طالب علوم إعلامية ومطور</span></h1>
+            <p data-tr="hero_desc">أنا طالب جامعي أدرس علوم الإعلامية في المعهد العالي للرياضيات التطبيقية والإعلامية بالقيروان تونس (ISMAI K). أجمع بين المنطق البرمجي واللمسة الفنية لتطوير حلول برمجية وإنتاج محتوى مرئي جذاب.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn primary" data-tr="btn_contact">تواصل معي</a>
+                <a href="#skills" class="btn secondary" data-tr="btn_skills">اكتشف مهاراتي</a>
+            </div>
+        </div>
+        <div class="hero-image hidden">
+            <img src="./Bureau high-tech avec figurine Itachi (1).png" alt="Profile Picture">
+        </div>
+    </section>
+
+    <!-- قسم المهارات -->
+    <section id="skills" class="skills-section">
+        <div class="section-header hidden">
+            <h2 data-tr="skills_title">ماذا <span>أُقدم</span></h2>
+            <p data-tr="skills_desc">خبراتي تتنوع بين البرمجة، تصميم الويب، المونتاج وإدارة المشاريع</p>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card hidden">
+                <div class="icon"><i class="fas fa-code"></i></div>
+                <h3 data-tr="skill1_title">البرمجة (Python & C)</h3>
+                <p data-tr="skill1_desc">تطوير خوارزميات وبرامج قوية باستخدام لغات البرمجة الأساسية. بناء سكربتات بـ Python وتطوير أنظمة سريعة بـ C.</p>
+            </div>
+
+            <div class="skill-card hidden">
+                <div class="icon"><i class="fas fa-laptop-code"></i></div>
+                <h3 data-tr="skill2_title">تصميم وتطوير الويب</h3>
+                <p data-tr="skill2_desc">بناء واجهات مستخدم تفاعلية، متجاوبة مع جميع الشاشات، وذات تجربة مستخدم ممتازة.</p>
+            </div>
+
+            <div class="skill-card hidden">
+                <div class="icon"><i class="fas fa-video"></i></div>
+                <h3 data-tr="skill3_title">المونتاج وتحرير الفيديو</h3>
+                <p data-tr="skill3_desc">صناعة وتحرير الفيديوهات باحترافية، تصحيح الألوان، وإخراج محتوى مرئي يروي قصة.</p>
+            </div>
+
+            <div class="skill-card hidden">
+                <div class="icon"><i class="fab fa-git-alt"></i></div>
+                <h3 data-tr="skill4_title">العمل باستخدام Git</h3>
+                <p data-tr="skill4_desc">سلاسة التعامل مع أنظمة التحكم في الإصدارات (Git/GitHub) لإدارة الأكواد والعمل الجماعي بفعالية.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم التواصل -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container hidden">
+            <h2 data-tr="contact_title">لنبقَ على <span>تواصل</span></h2>
+            <p data-tr="contact_desc">راسلني عبر البريد الإلكتروني أو تواصل معي عبر منصات التواصل الاجتماعي:</p>
+
+            <a href="mailto:khllsallemi@gmail.com" class="email-link">
+                <i class="fas fa-envelope"></i> khllsallemi@gmail.com
+            </a>
+
+            <div class="social-links">
+                <a href="https://github.com/khllsallemi-prog" target="_blank" class="social-btn github"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/khalil-sallemi-485a3939a/" target="_blank" class="social-btn linkedin"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                <a href="#" target="_blank" class="social-btn instagram"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p data-tr="footer_text">&copy; 2026 تم التصميم والبرمجة بشغف.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
