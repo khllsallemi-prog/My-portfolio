@@ -37,8 +37,8 @@ Check out my repositories to explore my projects, exercises, and experiments.
 ## Contact
 
 - **GitHub:** [@khllsallemi-prog](https://github.com/khllsallemi-prog)
-- **LinkedIn:** Add your LinkedIn profile URL here.
-- **Email:** Add your professional email here.
+- **LinkedIn:** (https://www.linkedin.com/in/khalil-sallemi-485a3939a/).
+- **Email:**khllsllemi@dmail.com  .
 
 ---
 
